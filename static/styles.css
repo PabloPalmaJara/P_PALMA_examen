@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Botón morado puro para Ejercicio 1 */
+.btn-ej1 {
+    background-color: #800080; /* morado puro */
+    color: #fff;
+}
+
+/* Botón verde pastel para Ejercicio 2 */
+.btn-ej2 {
+    background-color: #b5e48c; /* verde pastel */
+    color: #000;
+}
+
+/* Efecto hover */
+button:hover {
+    opacity: 0.85;
+}
+
+/* Cuadro de formulario centrado con bordes definidos */
+.form-box, .login-box {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 30px;
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Campos de entrada estilizados */
+.form-box input,
+.login-box input {
+    width: 90%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
